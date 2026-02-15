@@ -1,0 +1,47 @@
+/* Light blue background */
+body {
+  background-color: #e0f4ff;
+  color: #4a4a4a;
+}
+
+/* Style for content sections with light pink boxes */
+.col > div {
+  background-color: #fce4ec;
+  padding: 20px;
+  border-radius: 40px;
+  border: 3px solid #f8bbd0;
+}
+
+p {
+  color: #4a4a4a;
+}
+
+h1, h2, h3 {
+  color: #c2185b;
+}
+
+/* Override Bootstrap's light text colors */
+a, .nav-link, .link-body-emphasis, .text-body-emphasis, span {
+  color: #2c3e50 !important;
+}
+
+a:hover {
+  color: #c2185b !important;
+}
+
+/* Round corners on images */
+img {
+  border-radius: 200px;
+}
+
+.btn-primary {
+  background-color: #e91e63 !important;
+  border-color: #e91e63 !important;
+}
+
+.btn-primary:hover {
+  background-color: #c2185b !important;
+  border-color: #c2185b !important;
+  color: #ffffff !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5) !important;
+}
